@@ -28,8 +28,6 @@ class SearchPage extends Component {
           this.setState({ searchedBooks})
         }
       })
-    }else {
-      this.setState({ searchedBooks: [] });
     }
 
   }
